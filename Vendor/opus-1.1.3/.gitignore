@@ -1,0 +1,11 @@
+.deps
+.dirstamp
+Makefile
+celt/arm/armopts.s
+config.h
+config.log
+config.status
+Doxyfile
+libtool
+*.pc
+stamp-h1

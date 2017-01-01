@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Users/bryan/Documents/AudioLogger/Vendor/bin/lib'
+libdir='/Users/bryan/Documents/AudioLogger/Vendor/lib'

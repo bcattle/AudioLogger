@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E81641C9F99CD19F8A12479A93746D3A8FE75201",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "30D20A94A768024D6275695C5C971319BEF48B2B" : 9223372036854775807,
+    "E81641C9F99CD19F8A12479A93746D3A8FE75201" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "50DF83D4-3D3B-4A21-9861-F1285EF13270",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "30D20A94A768024D6275695C5C971319BEF48B2B" : "AudioLogger\/Vendor\/opusframework\/",
+    "E81641C9F99CD19F8A12479A93746D3A8FE75201" : "AudioLogger\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AudioLogger",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AudioLogger.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mdelete\/opusframework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30D20A94A768024D6275695C5C971319BEF48B2B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bcattle\/AudioLogger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E81641C9F99CD19F8A12479A93746D3A8FE75201"
+    }
+  ]
+}

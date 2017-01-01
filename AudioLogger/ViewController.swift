@@ -10,13 +10,18 @@ import Cocoa
 //import AudioKit
 
 class ViewController: NSViewController {
-
+    var audioPipe:AudioPipe!
+    
 //    @IBOutlet var audioInputPlot: EZAudioPlot!
 //    var mic: AKMicrophone!
 //    var silence: AKBooster!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Initalize the encoder. Bombs away...
+        audioPipe = AudioPipe()
+        
         // Do any additional setup after loading the view.
 //        mic = AKMicrophone()
 //        silence = AKBooster(tracker, gain: 0)

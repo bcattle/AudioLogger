@@ -1,6 +1,6 @@
 # Opus codec reference implementation pkg-config file
 
-prefix=/Users/bryan/Documents/AudioLogger/Vendor/bin
+prefix=/Users/bryan/Documents/AudioLogger/Vendor
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

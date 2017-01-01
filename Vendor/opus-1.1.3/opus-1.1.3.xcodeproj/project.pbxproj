@@ -1,0 +1,144 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		9364E3231E18F7B5003A8D89 /* celt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = celt; sourceTree = "<group>"; };
+		9364E32F1E18F7B5003A8D89 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		9364E3301E18F7B5003A8D89 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		9364E3421E18F7B5003A8D89 /* silk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = silk; sourceTree = "<group>"; };
+		9364E3451E18F7B5003A8D89 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		9364E31A1E18F7B5003A8D89 = {
+			isa = PBXGroup;
+			children = (
+				9364E3231E18F7B5003A8D89 /* celt */,
+				9364E32F1E18F7B5003A8D89 /* doc */,
+				9364E3301E18F7B5003A8D89 /* include */,
+				9364E3421E18F7B5003A8D89 /* silk */,
+				9364E3451E18F7B5003A8D89 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		9364E31F1E18F7B5003A8D89 /* opus-1.1.3 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 9364E34A1E18F7B5003A8D89 /* Build configuration list for PBXLegacyTarget "opus-1.1.3" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/bryan/Documents/AudioLogger/Vendor/opus-1.1.3";
+			dependencies = (
+			);
+			name = "opus-1.1.3";
+			passBuildSettingsInEnvironment = 1;
+			productName = "opus-1.1.3";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		9364E31B1E18F7B5003A8D89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 9364E31E1E18F7B5003A8D89 /* Build configuration list for PBXProject "opus-1.1.3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9364E31A1E18F7B5003A8D89;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9364E31F1E18F7B5003A8D89 /* opus-1.1.3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		9364E31C1E18F7B5003A8D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		9364E31D1E18F7B5003A8D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		9364E34B1E18F7B5003A8D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "opus-1.1.3";
+			};
+			name = Debug;
+		};
+		9364E34C1E18F7B5003A8D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "opus-1.1.3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9364E31E1E18F7B5003A8D89 /* Build configuration list for PBXProject "opus-1.1.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9364E31C1E18F7B5003A8D89 /* Debug */,
+				9364E31D1E18F7B5003A8D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9364E34A1E18F7B5003A8D89 /* Build configuration list for PBXLegacyTarget "opus-1.1.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9364E34B1E18F7B5003A8D89 /* Debug */,
+				9364E34C1E18F7B5003A8D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9364E31B1E18F7B5003A8D89 /* Project object */;
+}
